@@ -1,4 +1,14 @@
-.test {
-    color: blue;
-    font-size: 50px;
-}
+.container {
+    width: 400px;
+    height: 300px;
+    background-color: #024817;
+  }
+  .middle {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    border-radius: 90%;
+    background-color: #48BF7D;
+  }
