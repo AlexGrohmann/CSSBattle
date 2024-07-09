@@ -1,0 +1,10 @@
+html {
+    background-color: #F5D6B4;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background: #dd6b4d;
+    margin: -8px 0 0 -8px;
+  }
