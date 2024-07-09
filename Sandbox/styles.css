@@ -13,16 +13,13 @@ p {
   border-radius: 50px;
 }
 .a {
-  background-color: darkcyan;
   border-bottom-right-radius: 0;
 }
 .b {
-  background-color: darkgreen;
   border-bottom-left-radius: 0;
 }
 .c {
   width: 150px;
-  background-color: darkred;
   background: linear-gradient(90deg, #191919 25px, 0, #EFF33C 35px, 0, #191919 60px, 0, #EFF33C 70px, 0, #191919 95px, 0, #EFF33C);
 }
 /* auge */
@@ -33,5 +30,14 @@ p {
   background: #191919;
   top: 170px;
   left: 240px;
-  background-color: rgb(213, 72, 96);
 } 
+
+@keyframes jump {
+  0%   {transform: translate3d(0,0,0)}
+  40%  {transform: translate3d(0,30%,0)}
+  100% {transform: translate3d(0,100%,0)}
+}
+.jump {
+  transform-origin: 50% 50%;
+  animation: jump 5s linear alternate infinite;
+}
